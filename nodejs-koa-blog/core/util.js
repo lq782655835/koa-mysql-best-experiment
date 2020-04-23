@@ -44,8 +44,8 @@ const generateToken = function (uid, scope) {
   const secretKey = global.config.security.secretKey;
   const expiresIn = global.config.security.expiresIn;
   const token = jwt.sign({
-    uid,
-    scope
+    uid, // 数据库user id
+    scope // 权限范围
   }, secretKey, {
     expiresIn: expiresIn
   })
