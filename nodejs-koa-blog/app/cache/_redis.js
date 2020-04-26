@@ -37,7 +37,7 @@ function setRedis(key, val, timeout = 60 * 60) {
  */
 function getRedis(key) {
   return new Promise((resolve, reject) => {
-    reject(null)
+    resolve(null)
     // redisClient.get(key, (err, val) => {
     //   if (err) {
     //     reject(err)

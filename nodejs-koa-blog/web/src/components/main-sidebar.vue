@@ -30,19 +30,10 @@
       <div class="sidebar-box-content">
         <ul>
           <li class="sidebar-box-content-item">
-            <a href="https://github.com/liangfengbo" target="_blank">
+            <a href="https://github.com/lq782655835" target="_blank">
               <div>
                 <Icon class="icon" type="logo-github"/>
                 Github
-              </div>
-            </a>
-            <span></span>
-          </li>
-          <li class="sidebar-box-content-item">
-            <a href="https://www.boblog.com" target="_blank">
-              <div style="color: #2d8cf0;">
-                <Icon type="md-ionic" />
-                波波博客
               </div>
             </a>
             <span></span>
